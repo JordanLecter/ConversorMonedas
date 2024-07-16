@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Monedas</h1>
+        <div class="input-group">
+            <label for="txtCantidad">Cantidad:</label>
+            <input type="text" id="txtCantidad" placeholder="Cantidad">
+        </div>
+        <div class="input-group">
+            <label for="options1">De:</label>
+            <select id="options1">
+                <option value="USD">Dolar Estadounidense</option>
+                <option value="ARS">Peso Argentino</option>
+                <option value="BRL">Real Brazileño</option>
+                <option value="COP">Peso Colombiano</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="options2">A:</label>
+            <select id="options2">
+                <option value="USD">Dolar Estadounidense</option>
+                <option value="ARS">Peso Argentino</option>
+                <option value="BRL">Real Brazileño</option>
+                <option value="COP">Peso Colombiano</option>
+            </select>
+        </div>
+        <button id="btnConvertir">Convertir</button>
+        <p id="resultado"></p>
+    </div>
+
+</body>
+</html>
